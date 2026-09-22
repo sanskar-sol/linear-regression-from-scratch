@@ -9,6 +9,8 @@ The model uses the **Medical Cost Dataset** (`data.csv`):
 
 We want to find the best-fitting line that predicts insurance charges based on a person's age.
 
+![Dataset](dataset.png)
+
 
 
 ## 1. Hypothesis Function (The Line)
@@ -114,3 +116,5 @@ plt.ylabel("Charges")
 plt.legend()
 plt.show()
 ```
+
+![Fitted Line](linear_regression.png)
