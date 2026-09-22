@@ -91,10 +91,8 @@ def gradient_descent(m_now, b_now, points, L):
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Load dataset
+#dataset
 data = pd.read_csv("data.csv")
-
-# Initialize parameters
 m = 0
 b = 0
 L = 0.0001
