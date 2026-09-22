@@ -12,7 +12,7 @@ def loss_function(m, b, points):
     total_error = 0
     for i in range(len(points)):
         x = points.iloc[i].age
-        y = points.iloc[j].charges
+        y = points.iloc[i].charges
         total_error += (y - (m * x + b)) ** 2
     
     avg_error = total_error / float(len(points))
